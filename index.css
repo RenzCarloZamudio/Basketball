@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0D1C42;
+    color: white;
+}
+
+@font-face {
+    font-family: scoreFont;
+    src: url(digital-7.ttf);
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+#card-size{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.inner-card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.score-screen{
+    width: 75px;
+    background-color: #010736;
+    font-family: scoreFont;
+    color: lightcoral;
+    font-size: 100px;
+    font-weight: lighter;
+    padding: 5px 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buttons-card{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button{
+    font-family: scoreFont;
+    font-size: 20px;
+    background: transparent;
+    margin: 0 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: gray;
+    width: 35px;
+    padding: 5px 5px;
+}
